@@ -39,8 +39,8 @@ const _Layout = () => {
         },
         tabBarStyle: {
           backgroundColor: "#0f0D23",
-          borderRadius: 15,
-          marginHorizontal: 10,
+          borderRadius: 10,
+          marginHorizontal: 70,
           marginBottom: 50,
           height: 52,
           position: "absolute",
@@ -60,7 +60,7 @@ const _Layout = () => {
           ),
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="saved"
         options={{
           title: "Saved",
@@ -69,7 +69,7 @@ const _Layout = () => {
             <TabIcon focused={focused} icon={icons.save} title="Guardados" />
           ),
         }}
-      />
+      /> */}
       <Tabs.Screen
         name="search"
         options={{
@@ -80,7 +80,7 @@ const _Layout = () => {
           ),
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="profile"
         options={{
           title: "Profile",
@@ -89,7 +89,7 @@ const _Layout = () => {
             <TabIcon focused={focused} icon={icons.person} title="Perfil" />
           ),
         }}
-      />
+      /> */}
     </Tabs>
   );
 };
